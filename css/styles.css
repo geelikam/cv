@@ -53,3 +53,71 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+.resume-aside {
+	flex: 1 1 250px;
+	background-color: #282840;
+	color: #f0f0f0;
+	display: flex;
+	flex-flow: column;
+}
+
+.resume-aside a {
+	color: #c0c0ff;
+}
+
+.resume-aside a:hover {
+	opacity: .8;
+}
+
+.language-item {
+	display: flex;
+	margin: .5em 0;
+}
+
+.language-name {
+	width: 50%;
+}
+
+.language-level {
+	position: relative;
+	font-size: .8em;
+	font-weight: 600;
+	width: 50%;
+	height:  1.6em;
+	text-align: center;
+	border: 2px solid #fffff0;
+	color: #000000;
+	text-shadow: 1px 1px 2px #ffffff;
+}
+
+.language-level > * {
+	position: absolute;
+	left: 0;
+	top:  0;
+	height: 100%;
+}
+
+.language-progress {
+	background-color: #85AC70;
+}
+
+.language-level h6 {
+	width: 100%;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.w-75 {
+	width: 75%;
+}
+
+.w-100 {
+	width: 100%;
+}
+
