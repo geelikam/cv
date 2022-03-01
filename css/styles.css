@@ -3,7 +3,6 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap')
-
 /* Styles for the body */
 
 body {
@@ -17,16 +16,19 @@ body {
 .resume-header {
     background-color: #85AC70;
     color: #C7D9BE;
+    font-family: 'DM Serif Display', serif;
 }
 
 .resume-main {
 	background-color: #A8C49A;
 	color: #527141;
+	font-family: 'Poppins', sans-serif;
 }
 
 .resume-aside {
 	background-color: #C7D9BE;
 	color: #527141;
+	font-family: 'Poppins', sans-serif;
 }
 
 /* Styles for lists in the document */
@@ -37,6 +39,7 @@ body {
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
+	font-family: 'Poppins', sans-serif;
 }
 
 .biography-details li::before {
